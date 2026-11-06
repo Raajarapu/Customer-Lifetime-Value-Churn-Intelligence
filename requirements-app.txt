@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+plotly
+sqlalchemy
+psycopg2-binary
+psycopg[binary]
+python-dotenv
+joblib
+scikit-learn
+lightgbm
+shap
