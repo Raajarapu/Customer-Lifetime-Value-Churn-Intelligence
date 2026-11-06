@@ -13,4 +13,4 @@ streamlit
 plotly
 joblib
 jupyter
-pytest
+pytestpython-dotenv
