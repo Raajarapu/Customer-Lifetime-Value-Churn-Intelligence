@@ -1,0 +1,60 @@
+CUSTOMER CHURN DATA QUALITY REPORT
+==================================================
+
+Dataset Shape: (10000, 18)
+
+Missing Values:
+                    Missing_Count  Missing_Percentage
+RowNumber                       0                 0.0
+CustomerId                      0                 0.0
+Surname                         0                 0.0
+CreditScore                     0                 0.0
+Geography                       0                 0.0
+Gender                          0                 0.0
+Age                             0                 0.0
+Tenure                          0                 0.0
+Balance                         0                 0.0
+NumOfProducts                   0                 0.0
+HasCrCard                       0                 0.0
+IsActiveMember                  0                 0.0
+EstimatedSalary                 0                 0.0
+Exited                          0                 0.0
+Complain                        0                 0.0
+Satisfaction Score              0                 0.0
+Card Type                       0                 0.0
+Point Earned                    0                 0.0
+
+Duplicate Rows: 0
+
+Numerical Features: ['RowNumber', 'CustomerId', 'CreditScore', 'Age', 'Tenure', 'Balance', 'NumOfProducts', 'HasCrCard', 'IsActiveMember', 'EstimatedSalary', 'Exited', 'Complain', 'Satisfaction Score', 'Point Earned']
+
+Categorical Features: ['Surname', 'Geography', 'Gender', 'Card Type']
+
+Statistical Summary:
+                      count unique      top  freq           mean  ...         min          25%         50%          75%         max
+RowNumber           10000.0    NaN      NaN   NaN         5000.5  ...         1.0      2500.75      5000.5      7500.25     10000.0
+CustomerId          10000.0    NaN      NaN   NaN  15690940.5694  ...  15565701.0  15628528.25  15690738.0  15753233.75  15815690.0
+Surname               10000   2932    Smith    32            NaN  ...         NaN          NaN         NaN          NaN         NaN
+CreditScore         10000.0    NaN      NaN   NaN       650.5288  ...       350.0        584.0       652.0        718.0       850.0
+Geography             10000      3   France  5014            NaN  ...         NaN          NaN         NaN          NaN         NaN
+Gender                10000      2     Male  5457            NaN  ...         NaN          NaN         NaN          NaN         NaN
+Age                 10000.0    NaN      NaN   NaN        38.9218  ...        18.0         32.0        37.0         44.0        92.0
+Tenure              10000.0    NaN      NaN   NaN         5.0128  ...         0.0          3.0         5.0          7.0        10.0
+Balance             10000.0    NaN      NaN   NaN   76485.889288  ...         0.0          0.0    97198.54    127644.24   250898.09
+NumOfProducts       10000.0    NaN      NaN   NaN         1.5302  ...         1.0          1.0         1.0          2.0         4.0
+HasCrCard           10000.0    NaN      NaN   NaN         0.7055  ...         0.0          0.0         1.0          1.0         1.0
+IsActiveMember      10000.0    NaN      NaN   NaN         0.5151  ...         0.0          0.0         1.0          1.0         1.0
+EstimatedSalary     10000.0    NaN      NaN   NaN  100090.239881  ...       11.58     51002.11  100193.915  149388.2475   199992.48
+Exited              10000.0    NaN      NaN   NaN         0.2038  ...         0.0          0.0         0.0          0.0         1.0
+Complain            10000.0    NaN      NaN   NaN         0.2044  ...         0.0          0.0         0.0          0.0         1.0
+Satisfaction Score  10000.0    NaN      NaN   NaN         3.0138  ...         1.0          2.0         3.0          4.0         5.0
+Card Type             10000      4  DIAMOND  2507            NaN  ...         NaN          NaN         NaN          NaN         NaN
+Point Earned        10000.0    NaN      NaN   NaN       606.5151  ...       119.0        410.0       605.0        801.0      1000.0
+
+[18 rows x 11 columns]
+
+Target Distribution:
+        Count  Percentage
+Exited                   
+0        7962       79.62
+1        2038       20.38

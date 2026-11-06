@@ -1,0 +1,31 @@
+Feature,Feature_Value,SHAP_Value,Impact,Absolute_Impact
+numerical__Age,26.0,-0.591231534867503,Decreases Churn Risk,0.591231534867503
+numerical__IsActiveMember,1.0,-0.4956703395395362,Decreases Churn Risk,0.4956703395395362
+categorical__Gender_Female,0.0,-0.32414308472286585,Decreases Churn Risk,0.32414308472286585
+numerical__NumOfProducts,1.0,0.24224229513484663,Increases Churn Risk,0.24224229513484663
+numerical__Point Earned,870.0,-0.19060325422114455,Decreases Churn Risk,0.19060325422114455
+numerical__EstimatedSalary,149369.41,-0.15351605479899397,Decreases Churn Risk,0.15351605479899397
+categorical__Geography_France,1.0,-0.09625413678080583,Decreases Churn Risk,0.09625413678080583
+categorical__AgeGroup_Adult,1.0,-0.07915699930825719,Decreases Churn Risk,0.07915699930825719
+categorical__Gender_Male,1.0,-0.07507354334712221,Decreases Churn Risk,0.07507354334712221
+categorical__AgeGroup_Senior,0.0,-0.0567483247058035,Decreases Churn Risk,0.0567483247058035
+numerical__CreditScore,674.0,-0.05011523306831604,Decreases Churn Risk,0.05011523306831604
+numerical__Satisfaction Score,1.0,-0.04511995835480718,Decreases Churn Risk,0.04511995835480718
+numerical__Balance,166257.96,-0.036099669363929644,Decreases Churn Risk,0.036099669363929644
+numerical__Tenure,6.0,0.035948808161103504,Increases Churn Risk,0.035948808161103504
+categorical__Geography_Spain,0.0,0.03399112979625297,Increases Churn Risk,0.03399112979625297
+categorical__AgeGroup_Middle_Aged,0.0,-0.02386946257218076,Decreases Churn Risk,0.02386946257218076
+categorical__TenureGroup_Growing_Customer,0.0,-0.023120281564752165,Decreases Churn Risk,0.023120281564752165
+categorical__AgeGroup_Older,0.0,-0.017434784158093675,Decreases Churn Risk,0.017434784158093675
+categorical__Geography_Germany,0.0,-0.01636549896464413,Decreases Churn Risk,0.01636549896464413
+categorical__Card Type_DIAMOND,0.0,-0.016088219159399415,Decreases Churn Risk,0.016088219159399415
+categorical__Card Type_GOLD,0.0,0.015954109362816417,Increases Churn Risk,0.015954109362816417
+categorical__TenureGroup_Established_Customer,1.0,-0.01520943254246379,Decreases Churn Risk,0.01520943254246379
+categorical__Card Type_PLATINUM,1.0,-0.015138079081695751,Decreases Churn Risk,0.015138079081695751
+categorical__Card Type_SILVER,0.0,-0.015027731856908273,Decreases Churn Risk,0.015027731856908273
+categorical__AgeGroup_Young,0.0,0.009844392375036523,Increases Churn Risk,0.009844392375036523
+numerical__HasCrCard,1.0,-0.009665208784888414,Decreases Churn Risk,0.009665208784888414
+numerical__ZeroBalance,0.0,0.005306889962149566,Increases Churn Risk,0.005306889962149566
+categorical__TenureGroup_New_Customer,0.0,0.0036706406481995376,Increases Churn Risk,0.0036706406481995376
+categorical__TenureGroup_Long_Term_Customer,0.0,0.0009115820068671086,Increases Churn Risk,0.0009115820068671086
+categorical__AgeGroup_Elderly,0.0,0.0,Decreases Churn Risk,0.0

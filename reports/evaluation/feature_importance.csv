@@ -1,0 +1,31 @@
+Feature,Importance
+numerical__Balance,1285
+numerical__EstimatedSalary,1274
+numerical__CreditScore,1254
+numerical__Point Earned,1216
+numerical__Age,965
+numerical__Tenure,433
+numerical__NumOfProducts,380
+numerical__Satisfaction Score,304
+categorical__Geography_Germany,184
+numerical__IsActiveMember,172
+categorical__Gender_Female,149
+categorical__Card Type_GOLD,86
+categorical__Geography_France,83
+numerical__HasCrCard,81
+categorical__Card Type_DIAMOND,73
+categorical__Geography_Spain,73
+categorical__Card Type_SILVER,59
+categorical__TenureGroup_Growing_Customer,56
+categorical__TenureGroup_Established_Customer,49
+categorical__AgeGroup_Middle_Aged,48
+categorical__AgeGroup_Older,47
+categorical__Card Type_PLATINUM,46
+categorical__AgeGroup_Senior,35
+categorical__Gender_Male,34
+categorical__AgeGroup_Adult,34
+numerical__ZeroBalance,31
+categorical__TenureGroup_New_Customer,27
+categorical__AgeGroup_Young,14
+categorical__TenureGroup_Long_Term_Customer,7
+categorical__AgeGroup_Elderly,0

@@ -1,0 +1,5 @@
+uplift_category,customers,treatment_customers,conversions,average_uplift
+Low Uplift,2135,1091,21,-0.003097770583344924
+Medium Uplift,2135,1044,8,0.0018494010908105432
+High Uplift,2134,1103,9,0.005080441650221794
+Very High Uplift,2135,1040,15,0.01190364552115001
